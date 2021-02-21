@@ -5,13 +5,10 @@ import LightModeIcon from 'components/SvgIcons/LightModeIcon'
 
 const Toggle = () => {
   const { theme, setTheme } = useContext(ThemeContext)
-  console.log({ theme })
+
   const isDark = () => theme === 'dark'
-  console.log(isDark())
-  const handleChange = () => {
-    console.log('clicked')
-    setTheme(isDark() ? 'light' : 'dark')
-  }
+
+  const handleChange = () => setTheme(isDark() ? 'light' : 'dark')
 
   if (isDark()) {
     return (
