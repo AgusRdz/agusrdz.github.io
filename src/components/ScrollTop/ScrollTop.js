@@ -14,7 +14,7 @@ const ScrollTop = () => {
 
   return (
     <div
-      className={`rounded-full bg-gray-400 fixed bottom-5 right-1 cursor-pointer hover:bg-gray-600 ${
+      className={`rounded-full border bg-white fixed shadow-black bottom-3 right-3 cursor-pointer hover:bg-gray-600 ${
         show ? '' : 'hidden'
       }`}
       onClick={handleClick}

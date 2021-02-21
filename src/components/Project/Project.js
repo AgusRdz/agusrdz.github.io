@@ -10,7 +10,7 @@ const Project = ({ name, role, url, active = true, children }) => {
   }
 
   return (
-    <div className="bg-white shadow overflow-hidden sm:rounded-lg mt-4 h-fit">
+    <div className="bg-white shadow-black dark:shadow-gray overflow-hidden rounded-lg mx-3 h-fit">
       <div className="px-4 py-5 sm:px-6">
         <h3 className="text-lg leading-6 font-medium text-gray-900">
           {name}

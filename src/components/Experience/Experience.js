@@ -4,10 +4,10 @@ import React, { Fragment } from 'react'
 const Experience = () => {
   return (
     <Fragment>
-      <div className="text-center">
+      <div className="text-center mb-4">
         <span className="text-2xl">Experience</span>
       </div>
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 mb-4">
         <Project
           name="BrandVerge"
           role="Lead Developer"
