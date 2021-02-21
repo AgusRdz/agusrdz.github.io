@@ -1,11 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import agusrdz from 'images/agusrdz.png'
 import Toggle from 'components/Toggle'
 
 const Header = () => {
-  // const [darkMode, setDarkMode] = useState()
   return (
-    <div className="bg-black px-7 py-0 shadow-black object-center fixed w-full">
+    <div className="bg-black px-7 py-0 shadow-black object-center fixed w-full z-10">
       <img alt="agusrdz" src={agusrdz} className="w-24 object-center" />
       <Toggle />
     </div>
