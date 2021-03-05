@@ -1,5 +1,5 @@
 import ChevronUpIcon from 'components/SvgIcons/ChevronUpIcon/ChevronUpIcon'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 const ScrollTop = () => {
   const [show, setShow] = useState(false)

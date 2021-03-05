@@ -1,5 +1,5 @@
 import Project from 'components/Project'
-import React, { Fragment } from 'react'
+import { Fragment } from 'react'
 
 const Experience = () => {
   return (
@@ -12,6 +12,18 @@ const Experience = () => {
           name="BrandVerge"
           role="Lead Developer"
           url="https://app.gobrandverge.com"
+          technologies={[
+            'AngularJS 1.6',
+            'React 17',
+            'NodeJS',
+            'PostgreSQL',
+            'Algolia',
+            'ES6',
+            'Docker',
+            'AWS',
+            'Javascript',
+            'SocketIO'
+          ]}
         >
           <p>
             At BrandVerge, my main role was to take a legacy project based on
@@ -44,6 +56,7 @@ const Experience = () => {
           role="Web Developer"
           url="https://www.keywordjuicer.com"
           active={false}
+          technologies={['Laravel 5.4', 'MySQL', 'PHP']}
         >
           <p>
             I worked as Full -Stack developer creating different web
@@ -55,7 +68,13 @@ const Experience = () => {
             ticketing system with real- time notifications.
           </p>
         </Project>
-        <Project name="Roam" role="Web Developer" url="" active={false}>
+        <Project
+          name="Roam"
+          role="Web Developer"
+          url=""
+          active={false}
+          technologies={['Laravel 5.4', 'PHP', 'PostgreSQL', 'Rest API']}
+        >
           <p>
             In this project I was in charge of managing the API development also
             I created some features to handle the authentication process and
@@ -71,6 +90,7 @@ const Experience = () => {
           role="Web Developer"
           url="https://goguavo.com"
           active={false}
+          technologies={['NodeJS', 'MongoDB', 'ES6', 'Javascript']}
         >
           <p>
             I collaborated in the development of the API to provide the
@@ -84,6 +104,7 @@ const Experience = () => {
           name="Ticket To Go"
           role="Web Developer"
           url="https://www.tickettogo.com.mx"
+          technologies={['NodeJS', 'MySQL', 'G Cloud', 'Javascript']}
         >
           <p>
             I participated in the development of some modules for user
@@ -95,6 +116,7 @@ const Experience = () => {
           name="Boatsetter"
           role="Web Developer"
           url="https://www.boatsetter.com/"
+          technologies={['Laravel 5.3', 'Bootstrap', 'jQuery', 'MySQL', 'PHP']}
         >
           <p>
             In this project, I used Laravel 5.3 to do a migration of the old web
@@ -115,6 +137,7 @@ const Experience = () => {
           name="FutureED Auth"
           url="https://auth.futureed.com"
           role="Web Developer"
+          technologies={['Laravel 5.2', 'MySQL', 'G Cloud', 'PHP']}
         >
           <p>
             Using Laravel 5.2 I developed an application capable of authorize
@@ -130,6 +153,7 @@ const Experience = () => {
           name="FutureED Market"
           url="https://market.futureed.com"
           role="Web Developer"
+          technologies={['Laravel 5.2', 'MySQL', 'G Cloud', 'PHP']}
         >
           <p>
             I worked helping in the integration of user authentication, bug
@@ -140,6 +164,13 @@ const Experience = () => {
           name="FutureED Social"
           url="https://social.futureed.com"
           role="Web Developer"
+          technologies={[
+            'NodeJS',
+            'MySQL',
+            'G Cloud',
+            'SocketIO',
+            'Javascript'
+          ]}
         >
           <p>
             I collaborated on this project creating a real-time chat via sockets

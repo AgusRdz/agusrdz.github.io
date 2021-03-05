@@ -1,4 +1,4 @@
-import React from 'react'
+import PropTypes from 'prop-types'
 
 const ExpandIcon = (props) => {
   return (
@@ -13,6 +13,14 @@ const ExpandIcon = (props) => {
       <path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z" />
     </svg>
   )
+}
+
+ExpandIcon.propTypes = {
+  size: PropTypes.oneOf(['normal', 'large'])
+}
+
+ExpandIcon.defaultProps = {
+  size: 'normal'
 }
 
 export default ExpandIcon

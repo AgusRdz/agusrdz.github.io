@@ -1,6 +1,6 @@
-import React from 'react'
+import PropTypes from 'prop-types'
 
-const LightModeIcon = ({ size = 'normal', ...props }) => {
+const LightModeIcon = ({ size, ...props }) => {
   return (
     <svg
       fill="#fff"
@@ -15,6 +15,14 @@ const LightModeIcon = ({ size = 'normal', ...props }) => {
       <path d="M384 64H192C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192S490 64 384 64zm0 320c-70.8 0-128-57.3-128-128 0-70.8 57.3-128 128-128 70.8 0 128 57.3 128 128 0 70.8-57.3 128-128 128z" />
     </svg>
   )
+}
+
+LightModeIcon.propTypes = {
+  size: PropTypes.oneOf(['normal', 'large'])
+}
+
+LightModeIcon.defaultProps = {
+  size: 'normal'
 }
 
 export default LightModeIcon

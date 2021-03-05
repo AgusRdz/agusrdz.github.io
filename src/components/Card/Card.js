@@ -1,4 +1,4 @@
-import React from 'react'
+import PropTypes from 'prop-types'
 
 const Card = ({ children }) => {
   return (
@@ -6,6 +6,11 @@ const Card = ({ children }) => {
       {children}
     </div>
   )
+}
+
+Card.propTypes = {
+  url: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired
 }
 
 export default Card

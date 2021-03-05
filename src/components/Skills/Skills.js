@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import { Fragment } from 'react'
 import AlgoliaIcon from 'components/SvgIcons/AlgoliaIcon'
 import AngularIcon from 'components/SvgIcons/AngularIcon'
 import AwsIcon from 'components/SvgIcons/AwsIcon'
