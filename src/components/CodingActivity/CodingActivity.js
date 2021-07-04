@@ -46,7 +46,11 @@ const CodingActivity = () => {
               onUnmount={onUnmount}
               center={center}
               options={{
-                zoom: 2
+                zoom: 2,
+                streetViewControl: false,
+                zoomControl: false,
+                fullscreenControl: false,
+                mapTypeControl: false
               }}
             >
               {places.map(({ name, lat, lng }) => (
