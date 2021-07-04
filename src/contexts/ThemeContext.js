@@ -1,4 +1,4 @@
-import React, { useState, useEffect, createContext } from 'react'
+import React, { useState, createContext, useLayoutEffect } from 'react'
 import PropTypes from 'prop-types'
 
 export const ThemeContext = createContext()
@@ -35,7 +35,7 @@ export const ThemeProvider = ({ initialTheme, children }) => {
     rawSetTheme(initialTheme)
   }
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     rawSetTheme(theme)
   }, [theme])
 
@@ -47,6 +47,6 @@ export const ThemeProvider = ({ initialTheme, children }) => {
 }
 
 ThemeProvider.propTypes = {
-  initialTheme: PropTypes.string.isRequired,
+  initialTheme: PropTypes.string,
   children: PropTypes.node.isRequired
 }

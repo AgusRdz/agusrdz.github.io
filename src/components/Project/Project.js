@@ -70,7 +70,7 @@ Project.propTypes = {
   role: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
   active: PropTypes.bool.isRequired,
-  technologies: PropTypes.bool.isRequired,
+  technologies: PropTypes.array.isRequired,
   children: PropTypes.node.isRequired
 }
 

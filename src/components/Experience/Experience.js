@@ -9,6 +9,24 @@ const Experience = () => {
       </div>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 mb-4">
         <Project
+          name="Cuddly"
+          role="Full-stack Developer"
+          url="https://cuddly.com"
+          technologies={[
+            'React 17',
+            'Laravel 8',
+            'MySQL',
+            'Javascript',
+            'PHP',
+            'ES6'
+          ]}
+        >
+          Currently I am workign as a full-stack developer and part of my work
+          is migrate some features from the current legacy site to the new one
+          and in the way doing the improvements needed to provide more
+          performance and a better user experience.
+        </Project>
+        <Project
           name="BrandVerge"
           role="Lead Developer"
           url="https://app.gobrandverge.com"

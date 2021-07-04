@@ -13,4 +13,8 @@ Card.propTypes = {
   children: PropTypes.node.isRequired
 }
 
+Card.defaultProps = {
+  url: ''
+}
+
 export default Card
