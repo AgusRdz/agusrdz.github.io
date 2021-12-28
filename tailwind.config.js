@@ -19,7 +19,12 @@ module.exports = {
       'true-gray': colors.trueGray,
       white: colors.white,
       blue: colors.blue,
-      'red-intense': '#e25555'
+      'red-intense': '#e25555',
+      'space-cadet': '#1d3461',
+      'yale-blue': '#2f487e',
+      'queen-blue': '#376996',
+      'united-nations-blue': '#6290c8',
+      'cerulean-frost': '#829cbc'
     }
   },
   variants: {
